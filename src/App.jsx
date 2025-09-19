@@ -12,7 +12,7 @@ import ScrollToTopButton from './components/ScrollToTopButton'
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/Vignan-Plants'>
       <Suspense fallback={<Loader/>}>
       <Routes>
         <Route path="/" element={<MainLayout />}>
