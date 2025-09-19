@@ -29,6 +29,6 @@ A **Vite + React project** showcasing plants and trees information with animatio
 
 Clone the repo and install dependencies:  
 ```bash
-git clone https://github.com/<your-username>/Vignan-Plants.git
+git clone https://github.com/indala/Vignan-Plants.git
 cd Vignan-Plants
 npm install
