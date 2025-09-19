@@ -1,12 +1,34 @@
-# React + Vite
+# 🌱 Vignan Plants  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Vite + React project** showcasing plants and trees information with animations, Bootstrap UI, and React Router. Built as part of the **Vignan University Green Initiative** to promote eco-awareness and digital plant documentation.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 📸 Plant gallery with images  
+- 🌿 Plant details with scientific info  
+- 🎨 Animations using **Framer Motion**  
+- 🧭 Navigation using **React Router DOM**  
+- 🎨 Styled with **Bootstrap + React-Bootstrap**  
+- 📱 Fully responsive UI  
+- 🌍 Deployed on **GitHub Pages**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- [Vite](https://vitejs.dev/) – Lightning fast build tool  
+- [React](https://react.dev/) – Frontend library  
+- [React Router DOM](https://reactrouter.com/) – Routing  
+- [Framer Motion](https://www.framer.com/motion/) – Animations  
+- [Bootstrap](https://getbootstrap.com/) + [React-Bootstrap](https://react-bootstrap.github.io/) – Styling  
+- [gh-pages](https://www.npmjs.com/package/gh-pages) – Deployment  
+
+---
+
+## 📦 Installation  
+
+Clone the repo and install dependencies:  
+```bash
+git clone https://github.com/<your-username>/Vignan-Plants.git
+cd Vignan-Plants
+npm install
