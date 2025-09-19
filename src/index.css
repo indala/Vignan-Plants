@@ -1,0 +1,88 @@
+.header .nav-link.active{
+  color:#d4e60e ! important;
+}
+.header .nav-link{
+  position: relative;
+  color:white;
+}
+
+.header .nav-link::after{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  background-color: #00bcd4;
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+.header .nav-link.active::after{
+  width: 100%;
+}
+
+
+
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+.scroll-to-top {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1100;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
+/* Style for fixed (window scroll) */
+.scroll-to-top.fixed {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+
+/* Style for absolute (container scroll) */
+.scroll-to-top.absolute {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+/* Adjust for mobile if needed */
+@media (max-width: 767.98px) {
+  .scroll-to-top.fixed,
+  .scroll-to-top.absolute {
+    bottom: 90px;
+  }
+}
+
+@media (max-width: 575.98px)
+ {
+  .header .nav-link.active::after{
+    width: 0%;
+  }
+ 
+  
+}
