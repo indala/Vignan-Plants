@@ -24,6 +24,10 @@ A **Vite + React project** showcasing plants and trees information with animatio
 - [gh-pages](https://www.npmjs.com/package/gh-pages) – Deployment  
 
 ---
+## 📚 Data & Content Credits
+Some plant information and descriptions in this project are sourced from [Wikipedia](https://www.wikipedia.org/)  
+under the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+
 
 ## 📦 Installation  
 
