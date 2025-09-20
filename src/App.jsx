@@ -15,7 +15,7 @@ const App = () => {
     <BrowserRouter basename='/Vignan-Plants'>
       <Suspense fallback={<Loader/>}>
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route index element={<MainLayout />}>
           <Route  path="/" element={<Home/>} />
           <Route path="/plants" element={<Plants />} />
           <Route path="/plants/:sno" element={<Plant />} />  {/* Add the route for plant details */}
