@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Right side */}
           <Col md={6} className="text-center text-md-end">
             <a
-              href="https://github.com/"
+              href="https://github.com/indala"
               target="_blank"
               rel="noopener noreferrer"
               className="text-light me-3 d-inline-flex align-items-center gap-1"
